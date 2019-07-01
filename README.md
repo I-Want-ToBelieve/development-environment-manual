@@ -57,7 +57,7 @@
 
 1. 在 powershell 终端窗口中执行以下命令, 以安装 git 和  openssh 到全局目录:
 
-```sudo scoop install git openssh -g```
+    ```sudo scoop install git openssh -g```
 
 2. 成功安装后, 在 powershell 终端窗口中执行以下命令, 以配置 git:
 
