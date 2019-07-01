@@ -25,7 +25,9 @@
 然后配置另外一个环境变量名
     <div align="center">![](images/JAVA_HOMEPATHVAR.png)</div>
 再将配置好的`JAVA_HOME`添加到系统环境变量下,系统环境变量变量名为`Path`，在找到变量名为`Path`的变量后，点击进去,然后再点击新建,输入你定义好的环境变量名`JAVA_HOME`和百分号，如下
-<div align="center">![](images/系统变量.png)</div>
+<div align="center">
+![](images/系统变量.png)
+</div>
 百分号表示引用变量
 然后我们再退出环境变量(点击确认退出)
 再在`CMD`或是`Powershell`中输入命令
