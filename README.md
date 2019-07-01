@@ -3,7 +3,7 @@
 整理一些编程语言的开发环境搭建教程
 
 **你需要使用 windows 7 及以上系统, 此教程以 windows 10 为例.**
-**如果你遇到了问题请提一个 issuse.**
+**如果你遇到了问题请提一个 issues.**
 
 ## 目录
 
@@ -92,6 +92,24 @@
     > Welcome to GitLab, @your user name!
 
     则表示配置成功!
+
+## 编程字体推荐
+
+你可以在这里[在线查看字体效果](https://app.programmingfonts.org/)
+你可以在这里[查看是否可以通过 scoop 下载你喜欢的字体](https://github.com/matthewjberger/scoop-nerd-fonts/tree/master/bucket)
+
+添加字体的 bucket:
+
+    ```
+    scoop bucket add nerd-fonts
+    ```
+
+这里我推荐下载 FiraCode 字体,你也可以选择你喜欢的字体:
+    ```
+    sudo scoop install FiraCode-NF -g
+    ```
+
+## 贡献者
 
 ## License
 
