@@ -152,7 +152,4 @@
 
 你可以使用在线编辑器: [CodePen](https://codepen.io/pen/) 来快速练习 HTML + CSS + JS:
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="Hello World" src="//codepen.io/FloatingShuYin/embed/jjzBXb/?height=265&theme-id=dark&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/FloatingShuYin/pen/jjzBXb/'>Hello World</a> by FloatingShuYin
-  (<a href='https://codepen.io/FloatingShuYin'>@FloatingShuYin</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+这是一个使用例子: https://codepen.io/FloatingShuYin/pen/jjzBXb
