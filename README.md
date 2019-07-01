@@ -100,12 +100,13 @@
 
 添加字体的 bucket:
 
-    ```
+    ```powershell
     scoop bucket add nerd-fonts
     ```
 
 这里我推荐下载 FiraCode 字体,你也可以选择你喜欢的字体:
-    ```
+
+    ```powershell
     sudo scoop install FiraCode-NF -g
     ```
 
