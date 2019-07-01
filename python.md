@@ -70,12 +70,12 @@ anaconda 分 anaconda2 与 anaconda3 两个版本.
     如果下载卡住了, 请敲击回车多次...
 6. 激活 python3.x 环境
     ```powershell
-    activate python37 # 或者在 bash 中 source activate python37
+    conda activate python37
     ```
 
 7. 退出 python3.x 环境
     ```powershell
-    deactivate # 或者在 bash 中 source deactivate
+    conda deactivate
     ```
 
 ## 安装编辑器: [vscode(visual studio code)](https://github.com/microsoft/vscode)
