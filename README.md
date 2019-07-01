@@ -23,7 +23,7 @@
 
 1. 按快捷键 `Win + X + A` 打开 powershell 终端窗口
 2. 复制这行命令到 powershell 终端窗口以修改执行策略: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
-3. 复制以下代码配置安装目录,执行安装:
+3. 请在 powershell 终端窗口执行以下命令, 以下载安装 scoop:
 
     ```powershell
     $env:SCOOP='D:\Applications\Scoop' # 局部安装目录, 你可以自行修改为合适的路径.
@@ -35,7 +35,7 @@
     iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
     ```
 
-4. scoop下载安装完成后, 下载基础的软件包,请在 powershell 终端窗口执行以下命令:
+4. scoop下载安装完成后, 请在 powershell 终端窗口执行以下命令, 以下载基础的软件包:
 
     ```powershell
     scoop install sudo # 提权脚本
@@ -50,7 +50,7 @@
     scoop bucket add extras
     scoop install chrome
     ```
-### chrome 扩展
+### chrome 扩展推荐
 
 - [Tampermonkey](https://www.gugeapps.net/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 - [扩展管理](https://www.gugeapps.net/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
