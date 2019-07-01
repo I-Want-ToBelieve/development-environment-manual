@@ -2,8 +2,8 @@
 
 整理一些编程语言的开发环境搭建教程
 
-**你需要使用 windows 7 及以上系统, 此教程以 windows 10 为例**
-**如果你遇到了问题请提一个 issuse**
+**你需要使用 windows 7 及以上系统, 此教程以 windows 10 为例.**
+**如果你遇到了问题请提一个 issuse.**
 
 ## 目录
 
@@ -55,7 +55,9 @@
 
 **你需要先去 [github](https://github.com/join?source=header-home) 或者 [gitlab](https://gitlab.com/users/sign_in#register-pane) 官网注册账号**
 
-1. 在 powershell 终端窗口中执行以下命令, 以安装 git 到全局目录: `sudo scoop install git -g`
+1. 在 powershell 终端窗口中执行以下命令, 以安装 git 和  openssh 到全局目录:
+
+```sudo scoop install git openssh -g```
 
 2. 成功安装后, 在 powershell 终端窗口中执行以下命令, 以配置 git:
 
@@ -69,7 +71,7 @@
     ```powershell
     ssh-keygen -t rsa -C example@gmail.com # 请将 example@gmail.com 替换为你注册 git 时使用的邮箱
     ```
-你需要设置两次密码, 也可不设置直接按三次回车跳过
+    你需要设置两次密码, 也可不设置直接按三次回车跳过
 
 4. 在 powershell 终端窗口中执行以下命令, 打印出 git ssh 密钥, 并选中复制.
 
