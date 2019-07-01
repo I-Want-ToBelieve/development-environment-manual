@@ -7,17 +7,17 @@
 
 ## 目录
 
-- [VHDL](https://github.com/FloatingShuYin/development-environment-manual/blob/master/VHDL.md)
-- [assembly](https://github.com/FloatingShuYin/development-environment-manual/blob/master/assembly.md)
-- [c++](https://github.com/FloatingShuYin/development-environment-manual/blob/master/c%2B%2B.md)
-- [c](https://github.com/FloatingShuYin/development-environment-manual/blob/master/c.md)
-- [golang](https://github.com/FloatingShuYin/development-environment-manual/blob/master/golang.md)
-- [groovy](https://github.com/FloatingShuYin/development-environment-manual/blob/master/groovy.md)
-- [java](https://github.com/FloatingShuYin/development-environment-manual/blob/master/java.md)
-- [javascript](https://github.com/FloatingShuYin/development-environment-manual/blob/master/javascript.md)
-- [lisp](https://github.com/FloatingShuYin/development-environment-manual/blob/master/lisp.md)
-- [matlab](https://github.com/FloatingShuYin/development-environment-manual/blob/master/matlab.md)
-- [python](https://github.com/FloatingShuYin/development-environment-manual/blob/master/python.md)
+- [VHDL](VHDL.md)
+- [assembly](assembly.md)
+- [c++](c%2B%2B.md)
+- [c](c.md)
+- [golang](golang.md)
+- [groovy](groovy.md)
+- [java](java.md)
+- [javascript](javascript.md)
+- [lisp](lisp.md)
+- [matlab](matlab.md)
+- [python](python.md)
 
 ## 安装 windows 包管理工具: [scoop](https://github.com/lukesampson/scoop)
 
