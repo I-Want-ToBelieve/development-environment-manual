@@ -4,17 +4,17 @@
 
 ## 目录
 
-[VHDL](https://github.com/FloatingShuYin/development-environment-manual/blob/master/VHDL.md)
-[assembly](https://github.com/FloatingShuYin/development-environment-manual/blob/master/assembly.md)
-[c++](https://github.com/FloatingShuYin/development-environment-manual/blob/master/c%2B%2B.md)
-[c](https://github.com/FloatingShuYin/development-environment-manual/blob/master/c.md)
-[golang](https://github.com/FloatingShuYin/development-environment-manual/blob/master/golang.md)
-[groovy](https://github.com/FloatingShuYin/development-environment-manual/blob/master/groovy.md)
-[java](https://github.com/FloatingShuYin/development-environment-manual/blob/master/java.md)
-[javascript](https://github.com/FloatingShuYin/development-environment-manual/blob/master/javascript.md)
-[lisp](https://github.com/FloatingShuYin/development-environment-manual/blob/master/lisp.md)
-[matlab](https://github.com/FloatingShuYin/development-environment-manual/blob/master/matlab.md)
-[python](https://github.com/FloatingShuYin/development-environment-manual/blob/master/python.md)
+- [VHDL](https://github.com/FloatingShuYin/development-environment-manual/blob/master/VHDL.md)
+- [assembly](https://github.com/FloatingShuYin/development-environment-manual/blob/master/assembly.md)
+- [c++](https://github.com/FloatingShuYin/development-environment-manual/blob/master/c%2B%2B.md)
+- [c](https://github.com/FloatingShuYin/development-environment-manual/blob/master/c.md)
+- [golang](https://github.com/FloatingShuYin/development-environment-manual/blob/master/golang.md)
+- [groovy](https://github.com/FloatingShuYin/development-environment-manual/blob/master/groovy.md)
+- [java](https://github.com/FloatingShuYin/development-environment-manual/blob/master/java.md)
+- [javascript](https://github.com/FloatingShuYin/development-environment-manual/blob/master/javascript.md)
+- [lisp](https://github.com/FloatingShuYin/development-environment-manual/blob/master/lisp.md)
+- [matlab](https://github.com/FloatingShuYin/development-environment-manual/blob/master/matlab.md)
+- [python](https://github.com/FloatingShuYin/development-environment-manual/blob/master/python.md)
 
 ## License
 
