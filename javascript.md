@@ -59,36 +59,36 @@
 2. 按快捷键 `Ctrl + Shift + P` 打开命令面板, 在顶部弹出的命令面板中键入 `preferences: Open Settings(JSON)` 回车执行.
 3. 在打开的 settings.json 文件中加入以下字段:
 ```json
-  "terminal.integrated.shell.windows": "S:\\Scoop\\apps\\git\\current\\bin\\bash.exe", // 请修改为你自己的 git 安装路径
-  "terminal.integrated.shellArgs.windows": [
-    "--login",
-    "-i"
-  ],
-  "terminal.external.windowsExec": "S:\\Scoop\\apps\\git\\current\\bin\\bash.exe", // 请修改为你自己的 git 安装路径
-  "terminal.integrated.cursorStyle": "underline", // 终端光标样式
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontFamily": "Fira Code", // 终端字体
-  "terminal.integrated.fontSize": 18, // 字体大小
-  "workbench.colorCustomizations": { // 你可以自己修改终端主题颜色
-    // panda theme
-    "terminal.foreground": "#ff75b5",
-    "terminal.ansiBrightBlack": "#292a2b",
-    "terminal.ansiBlack": "#676b79",
-    "terminal.ansiBrightRed": "#ff75b5",
-    "terminal.ansiRed": "#ff2c6d",
-    "terminal.ansiBrightGreen": "#19f9d8",
-    "terminal.ansiGreen": "#ff75b5",
-    "terminal.ansiBrightYellow": "#ffcc95",
-    "terminal.ansiYellow": "#ffb86c",
-    "terminal.ansiBrightBlue": "#6fc1ff",
-    "terminal.ansiBlue": "#45a9f9",
-    "terminal.ansiBrightMagenta": "#b084eb",
-    "terminal.ansiMagenta": "#72519c",
-    "terminal.ansiBrightCyan": "#000000",
-    "terminal.ansiCyan": "#6fc1ff",
-    "terminal.ansiBrightWhite": "#e6e6e6",
-    "terminal.ansiWhite": "#ffffff"
-  },
+    "terminal.integrated.shell.windows": "C:\\Scoop\\apps\\git\\current\\bin\\bash.exe", // 请确保路径为你自己的 git 安装路径
+    "terminal.integrated.shellArgs.windows": [
+        "--login",
+        "-i"
+    ],
+    "terminal.external.windowsExec": "C:\\Scoop\\apps\\git\\current\\bin\\bash.exe", // 请确保路径为你自己的 git 安装路径
+    "terminal.integrated.cursorStyle": "underline", // 终端光标样式
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontFamily": "Fira Code", // 终端字体
+    "terminal.integrated.fontSize": 18, // 字体大小
+    "workbench.colorCustomizations": { // 你可以自己修改终端主题颜色
+        // panda theme
+        "terminal.foreground": "#ff75b5",
+        "terminal.ansiBrightBlack": "#292a2b",
+        "terminal.ansiBlack": "#676b79",
+        "terminal.ansiBrightRed": "#ff75b5",
+        "terminal.ansiRed": "#ff2c6d",
+        "terminal.ansiBrightGreen": "#19f9d8",
+        "terminal.ansiGreen": "#ff75b5",
+        "terminal.ansiBrightYellow": "#ffcc95",
+        "terminal.ansiYellow": "#ffb86c",
+        "terminal.ansiBrightBlue": "#6fc1ff",
+        "terminal.ansiBlue": "#45a9f9",
+        "terminal.ansiBrightMagenta": "#b084eb",
+        "terminal.ansiMagenta": "#72519c",
+        "terminal.ansiBrightCyan": "#000000",
+        "terminal.ansiCyan": "#6fc1ff",
+        "terminal.ansiBrightWhite": "#e6e6e6",
+        "terminal.ansiWhite": "#ffffff"
+    },
 ```
 5. 按快捷键 `Ctrl + Shift + P` 打开命令面板, 在顶部弹出的命令面板中键入 `Terminal: Create New Integrated Terminal` 回车执行以打开集成终端.
 6. 现在你应该看到底部的终端面板弹出.
@@ -147,3 +147,12 @@
 5. 复制 `console.log('Hello World!')` 到 `index.js` 文件中
 6. 鼠标选中集成终端, 键入 `node index.js` 回车以执行 `index.js` 脚本文件.
 7. 你应该看到 `Hello World!` 在终端窗口中被打印出.
+
+## 在线编辑器: [CodePen](https://codepen.io/)
+
+你可以使用在线编辑器: [CodePen](https://codepen.io/pen/) 来快速练习 HTML + CSS + JS:
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="Hello World" src="//codepen.io/FloatingShuYin/embed/jjzBXb/?height=265&theme-id=dark&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/FloatingShuYin/pen/jjzBXb/'>Hello World</a> by FloatingShuYin
+  (<a href='https://codepen.io/FloatingShuYin'>@FloatingShuYin</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
