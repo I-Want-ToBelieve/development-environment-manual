@@ -3,6 +3,7 @@
 整理一些编程语言的开发环境搭建教程
 
 **你需要使用 windows 7 及以上系统, 此教程以 windows 10 为例**
+**如果你遇到了问题请提一个 issuse**
 
 ## 目录
 
@@ -24,27 +25,71 @@
 2. 复制这行命令到 powershell 终端窗口以修改执行策略: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 3. 复制以下代码配置安装目录,执行安装:
 
-```powershell
-$env:SCOOP='D:\Applications\Scoop' # 局部安装目录, 你可以自行修改为合适的路径.
-[Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
+    ```powershell
+    $env:SCOOP='D:\Applications\Scoop' # 局部安装目录, 你可以自行修改为合适的路径.
+    [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
 
-$env:SCOOP_GLOBAL='C:\Scoop' # 全局安装目录, 你可以自行修改为合适的路径.
-[Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
+    $env:SCOOP_GLOBAL='C:\Scoop' # 全局安装目录, 你可以自行修改为合适的路径.
+    [Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
 
-iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
-```
+    iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+    ```
 
 4. scoop下载安装完成后, 下载基础的软件包,请在 powershell 终端窗口执行以下命令:
 
-```powershell
-scoop install sudo # 提权脚本
-sudo scoop install 7zip # 解压缩
-scoop install aria2 # 多线程下载
-```
+    ```powershell
+    scoop install sudo # 提权脚本
+    sudo scoop install 7zip # 解压缩
+    scoop install aria2 # 多线程下载
+    ```
+
+## 安装 google 的 chrome 浏览器
+
+1. 在 powershell 终端窗口中执行以下命令, 以安装 chrome 浏览器
+    ```
+    scoop bucket add extras
+    scoop install chrome
+    ```
 
 ## 配置 git
 
-**你需要先去 github 或者 gitlab 官网注册账号**
+**你需要先去 [github](https://github.com/join?source=header-home) 或者 [gitlab](https://gitlab.com/users/sign_in#register-pane) 官网注册账号**
+
+1. 在 powershell 终端窗口中执行以下命令, 以安装 git 到全局目录: `sudo scoop install git -g`
+
+2. 成功安装后, 在 powershell 终端窗口中执行以下命令, 以配置 git:
+
+    ```powershell
+    git config --global user.email example@gmail.com # 请将 example@gmail.com 替换为你注册 git 时使用的邮箱
+    git config --global user.name  your username # 请将 your username 替换为你注册 git 时使用的用户名
+    ```
+
+3. 在 powershell 终端窗口中执行以下命令, 以配置 git ssh.
+
+    ```powershell
+    ssh-keygen -t rsa -C example@gmail.com # 请将 example@gmail.com 替换为你注册 git 时使用的邮箱
+    ```
+你需要设置两次密码, 也可不设置直接按三次回车跳过
+
+4. 在 powershell 终端窗口中执行以下命令, 打印出 git ssh 密钥, 并选中复制.
+
+    ```powershell
+    cat $env:userprofile\.ssh\id_rsa.pub
+    ```
+
+5. 打开 [github](https://github.com/settings/keys) 或者 [gitlab](https://gitlab.com/profile/keys) 将你的 ssh key 添加进去.
+
+6. 按 快捷键 `Win + Q` 键入 `git bash`, 回车打开 bash 终端窗口, 键入 `ssh -T git@github.com` 或者 `ssh -T git@gitlab.com`
+
+    如果打印出
+
+    > Hi your user name! You've successfully authenticated, but GitHub does not provide shell access.
+
+    或者
+
+    > Welcome to GitLab, @your user name!
+
+    则表示配置成功!
 
 ## License
 
