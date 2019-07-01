@@ -16,7 +16,7 @@ scoop 下载了 python 2.x 与 python 3.x 两个版本, 除此之外没有下载
     ```powershell
     sudo scoop install python27 python -g
     ```
-    如果下载卡主了, 请敲击回车多次...
+    如果下载卡住了, 请敲击回车多次...
 3. 下载安装完成后, 执行以下命令, 查看 python 版本:
     ```powershell
     python --version
@@ -67,7 +67,7 @@ anaconda 分 anaconda2 与 anaconda3 两个版本.
     ```powershell
     sudo conda create --name python37 python=3.7 # 或者 sudo conda create --name python27 python=2.7
     ```
-    如果下载卡主了, 请敲击回车多次...
+    如果下载卡住了, 请敲击回车多次...
 6. 激活 python3.x 环境
     ```powershell
     activate python37 # 或者在 bash 中 source activate python37
