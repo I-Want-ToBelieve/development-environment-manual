@@ -6,8 +6,8 @@
 [甲骨文官方网站](https://www.oracle.com/technetwork/java/javase/downloads/index.html)选择 **DOWNLOAD** 按钮
 ![](images/JDK-DOWNLOADPAGE.png)
 在进入下载页面后，你可以选择你需要的版本以及平台,如果你是32位系统那么就下载32位即`X86`的软件包，如果是64位系统那就下载`x86_64`或是`x64`，windows系统下载完成后就可以直接点击运行如果你下载的是可执行程序(`.exe`)的话，就直接傻瓜式操作直接点击下一步(next)，如果你下载的是压缩包(`.zip`)，那么把文件解压后放到你指定的目录下，如我把文件解压后发到了系统盘的程序文件夹下
-![](images/ProgramFile.png)
-![](images/JavaJDKFilePath.png)
+![](images/ProgramFile.png)    
+![](images/JavaJDKFilePath.png)    
 这是Java解压后所在的目录,就以当前目录为例。
 
 ### 配置环境
