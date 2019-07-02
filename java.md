@@ -1,45 +1,131 @@
-## Java环境配置
-***当前配置换进为Win10环境下***
+**请确保你已经完成了 [scoop 的安装](https://github.com/FloatingShuYin/development-environment-manual#%E5%AE%89%E8%A3%85-windows-%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7-scoop)**
 
-### 下载Java `jdk`
-你可以到甲骨文官方网站进行下载安装包如图
-[甲骨文官方网站](https://www.oracle.com/technetwork/java/javase/downloads/index.html)选择 **DOWNLOAD** 按钮
-![](images/JDK-DOWNLOADPAGE.png)
-在进入下载页面后，你可以选择你需要的版本以及平台,如果你是32位系统那么就下载32位即`X86`的软件包，如果是64位系统那就下载`x86_64`或是`x64`，windows系统下载完成后就可以直接点击运行如果你下载的是可执行程序(`.exe`)的话，就直接傻瓜式操作直接点击下一步(next)，如果你下载的是压缩包(`.zip`)，那么把文件解压后放到你指定的目录下，如我把文件解压后发到了系统盘的程序文件夹下
+**如果你遇到了问题请提一个 issues.**
+## 安装 JDK
 
-![](images/ProgramFile.png)    
-![](images/JavaJDKFilePath.png)    
-这是Java解压后所在的目录,就以当前目录为例。
+1. 按快捷键 `Win + X + I` 打开 powershell 终端窗口, 执行以下命令, 以添加 java bucket:
 
-### 配置环境
-打开这台电脑,然后点击属性
-![](images/Win10.png)
+    ```powershell
+    scoop bucket add java
+    ```
 
+2. 执行以下命令, 以下载安装 JDK
 
-然后我们可以看到旁边的几个选项,选择高级系统设置，点击后你就可以打开系统属性面板，然后可以看到环境变量按钮，我们选择环境变量按钮打开后就可以编辑环境变量了
-我们点击`新建(W)`按钮,然后将环境变量名设置为`JDK_HOME`(其实变量名你可以随意设置,只是这样设置可以见名思义,避免日后混淆)然后将变量值设置为jdk所在路径,比如我的`JDK`路径像这样
+    ```powershell
+    sudo scoop install oraclejdk -g
+    ```
+3. 安装完成后, 执行以下命令, 如果输出了 Java 的版本号, 就说明配置好了 Java 的开发环境:
 
-![](images/JavaJDKFilePath.png)    
+    ```powershell
+    java -version
+    ```
 
-那么我的环境变量的变量值则需要设置为如下
+    如图:
+    ![](images/JavaVersion.png)
 
-![](images/Win10OSAttr.png)    
+## 下载编辑器
 
-变量值就是JDK所在路径
-然后配置另外一个环境变量名
+eclipse 与 vscode 二选一
 
-![](images/JAVA_HOMEPATHVAR.png)    
+### [eclipse](https://www.eclipse.org/)
 
-再将配置好的`JAVA_HOME`添加到系统环境变量下,系统环境变量变量名为`Path`，在找到变量名为`Path`的变量后，点击进去,然后再点击新建,输入你定义好的环境变量名`JAVA_HOME`和百分号，如下
+1. 执行以下命令, 以下载安装 eclipse
+    ```powershell
+    sudo scoop install oraclejdk -g
+    ```
 
-![](images/系统变量.png)    
+### [vscode(visual studio code)](https://github.com/microsoft/vscode)
 
-百分号表示引用变量
-然后我们再退出环境变量(点击确认退出)
-再在`CMD`或是`Powershell`中输入命令
+1. 在 powershell 终端窗口中执行以下命令,以下载安装 vscode 便携版.
 
-```cmd
-java -version
+    ```powershell
+    scoop bucket add extras
+    scoop install vscode-portable
+    ```
+
+2. 要想验证安装,安装完成后, 在终端窗口键入 `code` 以打开 vscode 编辑器.
+3. 为鼠标右键添加 vscode 的上下文菜单, 执行以下命令:
+    ```powershell
+    start "D:\Applications\Scoop\apps\vscode-portable\current\vscode-install-context.reg" # 请确保 D:\Applications\Scoop 是你安装 scoop 时设置的局部安装目录, 如有不同, 请修改为你自己的路径.
+    ```
+
+#### 配置集成终端
+
+**请确保你已经完成了[git 的安装](https://github.com/FloatingShuYin/development-environment-manual#%E9%85%8D%E7%BD%AE-git)**
+
+1. 打开 vscode 编辑器
+2. 按快捷键 `Ctrl + Shift + P` 打开命令面板, 在顶部弹出的命令面板中键入 `preferences: Open Settings(JSON)` 回车执行.
+3. 在打开的 settings.json 文件中加入以下字段:
+```json
+    "terminal.integrated.shell.windows": "C:\\Scoop\\apps\\git\\current\\bin\\bash.exe", // 请确保路径为你自己的 git 安装路径
+    "terminal.integrated.shellArgs.windows": [
+        "--login",
+        "-i"
+    ],
+    "terminal.external.windowsExec": "C:\\Scoop\\apps\\git\\current\\bin\\bash.exe", // 请确保路径为你自己的 git 安装路径
+    "terminal.integrated.cursorStyle": "underline", // 终端光标样式
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontFamily": "Fira Code", // 终端字体
+    "terminal.integrated.fontSize": 18, // 字体大小
+    "workbench.colorCustomizations": { // 你可以自己修改终端主题颜色
+        // panda theme
+        "terminal.foreground": "#ff75b5",
+        "terminal.ansiBrightBlack": "#292a2b",
+        "terminal.ansiBlack": "#676b79",
+        "terminal.ansiBrightRed": "#ff75b5",
+        "terminal.ansiRed": "#ff2c6d",
+        "terminal.ansiBrightGreen": "#19f9d8",
+        "terminal.ansiGreen": "#ff75b5",
+        "terminal.ansiBrightYellow": "#ffcc95",
+        "terminal.ansiYellow": "#ffb86c",
+        "terminal.ansiBrightBlue": "#6fc1ff",
+        "terminal.ansiBlue": "#45a9f9",
+        "terminal.ansiBrightMagenta": "#b084eb",
+        "terminal.ansiMagenta": "#72519c",
+        "terminal.ansiBrightCyan": "#000000",
+        "terminal.ansiCyan": "#6fc1ff",
+        "terminal.ansiBrightWhite": "#e6e6e6",
+        "terminal.ansiWhite": "#ffffff"
+    },
 ```
-如果输出了Java的版本号,那就说明已经配置好了Java的系统环境了,如图
-![](images/JavaVersion.png)    
+5. 按快捷键 `Ctrl + Shift + P` 打开命令面板, 在顶部弹出的命令面板中键入 `Terminal: Create New Integrated Terminal` 回车执行以打开集成终端.
+6. 现在你应该看到底部的终端面板弹出.
+
+#### 扩展
+
+- [适用于 VS Code 的中文（简体）语言包](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)
+- [Settings Sync, 同步你的 vscode 扩展与设置](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+- [Guides, 为你的代码缩进添加各种缩进指南线](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)
+- [Project Manager, 项目管理, 功能有点多自己看介绍吧](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+- [Rainbow Brackets, 对你代码中的括号添加颜色](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
+
+你可以在这里搜索你需要的扩展: [Visual Studio系列产品的扩展](https://marketplace.visualstudio.com/VSCode)
+
+#### 主题
+
+我推荐几个很多人在用的主题...
+
+- [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
+
+    ![Atom One Dark Theme](https://raw.githubusercontent.com/akamud/vscode-theme-onedark/master/screenshots/preview.png)
+
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+    ![Material Icon Theme](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/fileIcons.png)
+
+- [Horizon Theme](https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode)
+
+    ![Material Icon Theme](https://raw.githubusercontent.com/jolaleye/horizon-theme-vscode/master/preview.png)
+
+- [Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)
+
+    ![Noctis Lux](https://github.com/liviuschera/noctis/raw/master/images/noctisLux.png)
+
+用着这么养眼的主题,写代码简直就是一种享受...
+
+想自己找找主题? [主题](https://marketplace.visualstudio.com/search?term=theme&target=VSCode&category=All%20categories&sortBy=Relevance)
+
+## Hello World
+
+
+
