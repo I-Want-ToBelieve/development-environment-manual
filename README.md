@@ -8,16 +8,11 @@
 
 ## 目录
 
-- [VHDL](VHDL.md) **TODO**
-- [assembly](assembly.md) **TODO**
 - [c++](c%2B%2B.md)
 - [c](c.md)
 - [golang](golang.md)
-- [groovy](groovy.md) **TODO**
 - [java](java.md)
 - [javascript](javascript.md)
-- [lisp](lisp.md) **TODO**
-- [matlab](matlab.md) **TODO**
 - [python](python.md)
 
 ## 安装 windows 包管理工具: [scoop](https://github.com/lukesampson/scoop)
