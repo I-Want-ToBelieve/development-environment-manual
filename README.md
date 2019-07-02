@@ -8,17 +8,17 @@
 
 ## 目录
 
-- [VHDL](https://github.com/FloatingShuYin/development-environment-manual/blob/master/VHDL.md) **TODO**
-- [assembly](https://github.com/FloatingShuYin/development-environment-manual/blob/master/assembly.md) **TODO**
-- [c++](https://github.com/FloatingShuYin/development-environment-manual/blob/master/c%2B%2B.md)
-- [c](https://github.com/FloatingShuYin/development-environment-manual/blob/master/c.md) **TODO**
-- [golang](https://github.com/FloatingShuYin/development-environment-manual/blob/master/golang.md) **TODO**
-- [groovy](https://github.com/FloatingShuYin/development-environment-manual/blob/master/groovy.md) **TODO**
-- [java](https://github.com/FloatingShuYin/development-environment-manual/blob/master/java.md) **TODO**
-- [javascript](https://github.com/FloatingShuYin/development-environment-manual/blob/master/javascript.md)
-- [lisp](https://github.com/FloatingShuYin/development-environment-manual/blob/master/lisp.md) **TODO**
-- [matlab](https://github.com/FloatingShuYin/development-environment-manual/blob/master/matlab.md) **TODO**
-- [python](https://github.com/FloatingShuYin/development-environment-manual/blob/master/python.md)
+- [VHDL](VHDL.md) **TODO**
+- [assembly](assembly.md) **TODO**
+- [c++](c%2B%2B.md)
+- [c](c.md) **TODO**
+- [golang](golang.md) **TODO**
+- [groovy](groovy.md) **TODO**
+- [java](java.md)
+- [javascript](javascript.md)
+- [lisp](lisp.md) **TODO**
+- [matlab](matlab.md) **TODO**
+- [python](python.md)
 
 ## 安装 windows 包管理工具: [scoop](https://github.com/lukesampson/scoop)
 
