@@ -1,5 +1,6 @@
 **请确保你已经完成了 [scoop 的安装](https://github.com/FloatingShuYin/development-environment-manual#%E5%AE%89%E8%A3%85-windows-%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7-scoop)**
 
+**如果你遇到了问题请提一个 issues.**
 ## 安装 node 版本管理工具 [nvm(node version management)](https://github.com/nvm-sh/nvm)
 
 1. 按快捷键 `Win + X + I` 打开 powershell 终端窗口, 执行以下命令, 以下载安装 nvm
@@ -146,10 +147,10 @@
 3. 继续键入 `mkdir hello-world` 回车以在桌面创建 `hello-world` 文件夹, 然后键入 `cd hello-world` 回车.
 4. 继续键入 `touch index.js` 回车以在 `hello-world` 文件夹中创建 `index.js` 文件.
 5. 继续键入 `code .` 回车以使用 vscode 编辑器打开 `hello-world` 文件夹.
-6. 复制 `console.log('Hello World!')` 到 `index.js` 文件中
+6. 复制 `console.log('Hello World!')` 到 `index.js` 文件中, 然后按快捷键 `Ctrl + S` 保存文件
 7. 鼠标选中集成终端, 键入 `node index.js` 回车以执行 `index.js` 脚本文件.
 8. 你应该看到 `Hello World!` 在终端窗口中被打印出.
-9. 在 vscode 中 调试 node.js 请看这篇文档: https://code.visualstudio.com/docs/editor/debugging
+9. 在 vscode 中 调试 node.js 请看这篇文档: https://code.visualstudio.com/docs/nodejs/nodejs-debugging
 
 ## 在线编辑器: [CodePen](https://codepen.io/)
 

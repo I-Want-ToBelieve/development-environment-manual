@@ -1,6 +1,6 @@
 **请确保你已经完成了 [scoop 的安装](https://github.com/FloatingShuYin/development-environment-manual#%E5%AE%89%E8%A3%85-windows-%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7-scoop)**
 
-**有问题请提issues**
+**如果你遇到了问题请提一个 issues.**
 
 ## 安装 python 版本管理工具
 
@@ -80,7 +80,7 @@ anaconda 分 anaconda2 与 anaconda3 两个版本.
     conda deactivate
     ```
 
-## 安装编辑器: [vscode(visual studio code)](https://github.com/microsoft/vscode)
+## 安装编辑器
 
 python 的编辑器, 我只推荐以下 2 个. **请自行考虑选择其中一种**
 
@@ -194,7 +194,7 @@ vscode 是一款微软创建的基于 Electron 架构的开源应用, 拥有繁�
 3. 继续键入 `mkdir hello-world` 回车以在桌面创建 `hello-world` 文件夹, 然后键入 `cd hello-world` 回车.
 4. 继续键入 `touch index.py` 回车以在 `hello-world` 文件夹中创建 `index.py` 文件.
 5. 继续键入 `code .` 回车以使用 vscode 编辑器打开 `hello-world` 文件夹.
-6. 复制 `print('Hello World!')` 到 `index.py` 文件中
+6. 复制 `print('Hello World!')` 到 `index.py` 文件中, 然后按快捷键 `Ctrl + S` 保存文件.
 7. 鼠标选中集成终端, 键入 `python index.py` 回车以执行 `index.py` 脚本文件.
 8. 你应该看到 `Hello World!` 在终端窗口中被打印出.
-9. 在 vscode 中 调试 python 请看这篇文档: https://code.visualstudio.com/docs/editor/debugging
+9. 在 vscode 中 调试 python 请看这篇文档: https://code.visualstudio.com/docs/python/debugging

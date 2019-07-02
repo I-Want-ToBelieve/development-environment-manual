@@ -3,20 +3,21 @@
 整理一些编程语言的开发环境搭建教程
 
 **你需要使用 windows 7 及以上系统, 此教程以 windows 10 为例.**
+
 **如果你遇到了问题请提一个 issues.**
 
 ## 目录
 
-- [VHDL](https://github.com/FloatingShuYin/development-environment-manual/blob/master/VHDL.md)
-- [assembly](https://github.com/FloatingShuYin/development-environment-manual/blob/master/assembly.md)
+- [VHDL](https://github.com/FloatingShuYin/development-environment-manual/blob/master/VHDL.md) **TODO**
+- [assembly](https://github.com/FloatingShuYin/development-environment-manual/blob/master/assembly.md) **TODO**
 - [c++](https://github.com/FloatingShuYin/development-environment-manual/blob/master/c%2B%2B.md)
-- [c](https://github.com/FloatingShuYin/development-environment-manual/blob/master/c.md)
-- [golang](https://github.com/FloatingShuYin/development-environment-manual/blob/master/golang.md)
-- [groovy](https://github.com/FloatingShuYin/development-environment-manual/blob/master/groovy.md)
-- [java](https://github.com/FloatingShuYin/development-environment-manual/blob/master/java.md)
+- [c](https://github.com/FloatingShuYin/development-environment-manual/blob/master/c.md) **TODO**
+- [golang](https://github.com/FloatingShuYin/development-environment-manual/blob/master/golang.md) **TODO**
+- [groovy](https://github.com/FloatingShuYin/development-environment-manual/blob/master/groovy.md) **TODO**
+- [java](https://github.com/FloatingShuYin/development-environment-manual/blob/master/java.md) **TODO**
 - [javascript](https://github.com/FloatingShuYin/development-environment-manual/blob/master/javascript.md)
-- [lisp](https://github.com/FloatingShuYin/development-environment-manual/blob/master/lisp.md)
-- [matlab](https://github.com/FloatingShuYin/development-environment-manual/blob/master/matlab.md)
+- [lisp](https://github.com/FloatingShuYin/development-environment-manual/blob/master/lisp.md) **TODO**
+- [matlab](https://github.com/FloatingShuYin/development-environment-manual/blob/master/matlab.md) **TODO**
 - [python](https://github.com/FloatingShuYin/development-environment-manual/blob/master/python.md)
 
 ## 安装 windows 包管理工具: [scoop](https://github.com/lukesampson/scoop)
