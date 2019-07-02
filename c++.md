@@ -242,4 +242,7 @@
 14. 此时你应该看到控制台最后一行打印出: `Hello C++ 世界 from VS Code! `
 15. 想了解在 vscode 中 调试 c++ 的更多的信息, 请看这篇文档: https://code.visualstudio.com/docs/cpp/config-mingw
 
+更多请参考:
+- [在 Windows 下使用 Visual Studio Code 搭建 C 语言开发环境](https://hovenjay.github.io/2018/06/01/VSCodeC/#4-%E5%88%9B%E5%BB%BA%E5%92%8C%E8%AE%BE%E7%BD%AE-C-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C%E5%8C%BA)
+
 

@@ -11,8 +11,8 @@
 - [VHDL](VHDL.md) **TODO**
 - [assembly](assembly.md) **TODO**
 - [c++](c%2B%2B.md)
-- [c](c.md) **TODO**
-- [golang](golang.md) **TODO**
+- [c](c.md)
+- [golang](golang.md)
 - [groovy](groovy.md) **TODO**
 - [java](java.md)
 - [javascript](javascript.md)
