@@ -2,29 +2,14 @@
 
 **如果你遇到了问题请提一个 issues.**
 
-## 安装 windows 第三方包管理工具: [choco](https://github.com/chocolatey/choco)
-
-1. 按快捷键 `Win + X + A` 打开 powershell 终端窗口
-2. 请在 powershell 终端窗口执行以下命令, 以设置 choco 安装目录:
-
-    ```powershell
-    $env:ChocolateyInstall='D:\Applications\Choco' # choco 安装目录, 你可以自行修改为合适的路径.
-    [Environment]::SetEnvironmentVariable('ChocolateyInstall', $env:ChocolateyInstall, 'Machine')
-    ```
-3. 关闭当前终端窗口, 再次按快捷键 `Win + X + A` 打开 powershell 终端窗口, 执行以下命令, 以安装 choco:
-    ```powershell
-    Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-    ```
-4. 执行 `choco -v` 以验证安装.
-
 ## 安装 C/C++ 编译器: mingw-w64
 
 1. 执行以下命令, 以下载安装 mingw-w64:
 
     ```powershell
-    choco install mingw -y
+    sudo scoop install gcc -g
     ```
-2. 执行 `choco list --local-only`, 以验证安装.
+2. 执行 `gcc -v`, 以验证安装.
 
 ## 安装编辑器: [vscode(visual studio code)](https://github.com/microsoft/vscode)
 
@@ -61,7 +46,7 @@
     "terminal.integrated.fontSize": 18, // 字体大小
     "workbench.colorCustomizations": { // 你可以自己修改终端主题颜色
         // panda theme
-        "terminal.foreground": "#ff75b5",
+        "terminal.foreground": "#fffefe",
         "terminal.ansiBrightBlack": "#292a2b",
         "terminal.ansiBlack": "#676b79",
         "terminal.ansiBrightRed": "#ff75b5",

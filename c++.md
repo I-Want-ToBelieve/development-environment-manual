@@ -2,7 +2,7 @@
 
 **如果你遇到了问题请提一个 issues.**
 
-## 安装 windows 第三方包管理工具: [choco](https://github.com/chocolatey/choco)
+<!-- ## 安装 windows 第三方包管理工具: [choco](https://github.com/chocolatey/choco)
 
 1. 按快捷键 `Win + X + A` 打开 powershell 终端窗口
 2. 请在 powershell 终端窗口执行以下命令, 以设置 choco 安装目录:
@@ -15,16 +15,16 @@
     ```powershell
     Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
     ```
-4. 执行 `choco -v` 以验证安装.
+4. 执行 `choco -v` 以验证安装. -->
 
 ## 安装 C/C++ 编译器: mingw-w64
 
 1. 执行以下命令, 以下载安装 mingw-w64:
 
     ```powershell
-    choco install mingw -y
+    sudo scoop install gcc -g
     ```
-2. 执行 `choco list --local-only`, 以验证安装.
+2. 执行 `gcc -v`, 以验证安装.
 
 ## 安装编辑器: [vscode(visual studio code)](https://github.com/microsoft/vscode)
 
@@ -61,7 +61,7 @@
     "terminal.integrated.fontSize": 18, // 字体大小
     "workbench.colorCustomizations": { // 你可以自己修改终端主题颜色
         // panda theme
-        "terminal.foreground": "#ff75b5",
+        "terminal.foreground": "#fffefe",
         "terminal.ansiBrightBlack": "#292a2b",
         "terminal.ansiBlack": "#676b79",
         "terminal.ansiBrightRed": "#ff75b5",
@@ -144,7 +144,7 @@
     }
     ```
 7. 按快捷键 `Ctrl + Shift + P` 打开命令面板, 在顶部弹出的命令面板中键入 `C/C++: Edit configurations(JSON)` 回车执行以打开 `c_cpp_properties.json`文件.
-8. 复制以下代码, 覆盖 `c_cpp_properties.json` 文件中的内容, 然后按快捷键 `Ctrl + S` 保存文件.(请确保compilerPath字段的路径是你安装 mingw-w64 时设定的路径):
+8. 复制以下代码, 覆盖 `c_cpp_properties.json` 文件中的内容, 然后按快捷键 `Ctrl + S` 保存文件:
     ```json
     {
         "configurations": [
@@ -159,7 +159,6 @@
                     "_UNICODE"
                 ],
                 "windowsSdkVersion": "10.0.17763.0",
-                "compilerPath": "D:/Applications/Choco/lib/mingw/tools/install/mingw64/bin/g++.exe",
                 "cStandard": "c11",
                 "cppStandard": "c++17",
                 "intelliSenseMode": "gcc-x64"
@@ -209,7 +208,7 @@
     }
     ```
 11. 按快捷键 `Ctrl + Shift + P` 打开命令面板, 在顶部弹出的命令面板中键入 `Debug: open launch.json` 回车执行以打开 `launch.json`文件.
-12. 复制以下代码, 覆盖 `launch.json` 文件中的内容, 然后按快捷键 `Ctrl + S` 保存文件.(请确保miDebuggerPath字段的路径是你安装 mingw-w64 时设定的路径):
+12. 复制以下代码, 覆盖 `launch.json` 文件中的内容, 然后按快捷键 `Ctrl + S` 保存文件:
     ```json
     {
       "version": "0.2.0",
@@ -226,7 +225,7 @@
           "environment": [],
           "externalConsole": false,
           "MIMode": "gdb",
-          "miDebuggerPath": "D:/Applications/Choco/lib/mingw/tools/install/mingw64/bin/gdb.exe",
+          "miDebuggerPath": "gdb.exe",
           "setupCommands": [
             {
               "description": "Enable pretty-printing for gdb",

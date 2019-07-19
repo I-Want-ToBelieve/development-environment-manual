@@ -131,7 +131,7 @@ vscode 是一款微软创建的基于 Electron 架构的开源应用, 拥有繁�
     "terminal.integrated.fontSize": 18, // 字体大小
     "workbench.colorCustomizations": { // 你可以自己修改终端主题颜色
         // panda theme
-        "terminal.foreground": "#ff75b5",
+        "terminal.foreground": "#fffefe",
         "terminal.ansiBrightBlack": "#292a2b",
         "terminal.ansiBlack": "#676b79",
         "terminal.ansiBrightRed": "#ff75b5",

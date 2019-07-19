@@ -115,7 +115,7 @@ Goland 与 vscode 二选一
     "terminal.integrated.fontSize": 18, // 字体大小
     "workbench.colorCustomizations": { // 你可以自己修改终端主题颜色
         // panda theme
-        "terminal.foreground": "#ff75b5",
+        "terminal.foreground": "#fffefe",
         "terminal.ansiBrightBlack": "#292a2b",
         "terminal.ansiBlack": "#676b79",
         "terminal.ansiBrightRed": "#ff75b5",
