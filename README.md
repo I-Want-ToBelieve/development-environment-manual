@@ -39,28 +39,6 @@
     scoop install aria2 # 多线程下载
     ```
 
-## 安装 google 的 chrome 浏览器
-
-1. 在 powershell 终端窗口中执行以下命令, 以安装 chrome 浏览器
-    ```
-    scoop bucket add extras
-    scoop install chrome
-    ```
-### chrome 扩展推荐
-
-- [Tampermonkey](https://www.gugeapps.net/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-- [扩展管理](https://www.gugeapps.net/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
-- [书签侧边栏](https://www.gugeapps.net/webstore/detail/bookmark-sidebar/jdbnofccmhefkmjbkkdkfiicjkgofkdh)
-- [topy 书签管理与分享](https://www.gugeapps.net/webstore/detail/toby-for-chrome/hddnkoipeenegfoeaoibdmnaalmgkpip)
-
-如果想安装扩展, 又不会科学上网的同学, 请使用 chrome 浏览器打开 [chrome 扩展镜像站](https://www.gugeapps.net/).
-
-### Tampermonkey 脚本推荐
-
-- [GitHub 汉化插件](chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/ask.html?aid=8f6e62a0-d0a0-4954-8c47-f436baf330f7).建议英语不好的同学还是要学下英语哈
-
-你可以在这里自行搜索 [Tampermonkey 脚本](https://greasyfork.org/zh-CN)
-
 ## 配置 git
 
 **你需要先去 [github](https://github.com/join?source=header-home) 或者 [gitlab](https://gitlab.com/users/sign_in#register-pane) 官网注册账号**
@@ -102,6 +80,28 @@
     > Welcome to GitLab, @your user name!
 
     则表示配置成功!
+
+## 安装 google 的 chrome 浏览器
+
+1. 在 powershell 终端窗口中执行以下命令, 以安装 chrome 浏览器
+    ```
+    scoop bucket add extras
+    scoop install chrome
+    ```
+### chrome 扩展推荐
+
+- [Tampermonkey](https://www.gugeapps.net/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+- [扩展管理](https://www.gugeapps.net/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
+- [书签侧边栏](https://www.gugeapps.net/webstore/detail/bookmark-sidebar/jdbnofccmhefkmjbkkdkfiicjkgofkdh)
+- [topy 书签管理与分享](https://www.gugeapps.net/webstore/detail/toby-for-chrome/hddnkoipeenegfoeaoibdmnaalmgkpip)
+
+如果想安装扩展, 又不会科学上网的同学, 请使用 chrome 浏览器打开 [chrome 扩展镜像站](https://www.gugeapps.net/).
+
+### Tampermonkey 脚本推荐
+
+- [GitHub 汉化插件](chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/ask.html?aid=8f6e62a0-d0a0-4954-8c47-f436baf330f7).建议英语不好的同学还是要学下英语哈
+
+你可以在这里自行搜索 [Tampermonkey 脚本](https://greasyfork.org/zh-CN)
 
 ## 编程字体推荐
 
