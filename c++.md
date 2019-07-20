@@ -38,7 +38,7 @@
 2. 要想验证安装,安装完成后, 在终端窗口键入 `code` 然后回车, 以打开 vscode 编辑器.
 3. 为鼠标右键添加 vscode 的上下文菜单, 执行以下命令:
     ```powershell
-    start "D:\Applications\Scoop\apps\vscode-portable\current\vscode-install-context.reg" # 请确保 D:\Applications\Scoop 是你安装 scoop 时设置的局部安装目录, 如有不同, 请修改为你自己的路径.
+    start "C:\Support\Scoop\apps\vscode-portable\current\vscode-install-context.reg" # 请确保 C:\Support\Scoop 是你安装 scoop 时设置的局部安装目录, 如有不同, 请修改为你自己的路径.
     ```
 
 ### 配置集成终端
