@@ -22,7 +22,7 @@
 3. 请在 powershell 终端窗口执行以下命令, 以下载安装 scoop:
 
     ```powershell
-    $env:SCOOP='D:\Applications\Scoop' # 局部安装目录, 你可以自行修改为合适的路径.
+    $env:SCOOP='C:\Support\Scoop' # 局部安装目录, 你可以自行修改为合适的路径.
     [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
 
     $env:SCOOP_GLOBAL='C:\Scoop' # 全局安装目录, 你可以自行修改为合适的路径.
