@@ -122,6 +122,8 @@ sudo scoop install FiraCode-NF -g
 
 ## 贡献者
 
+[jingyuexing](https://github.com/jingyuexing)
+
 ## License
 
 [![License: CC BY-NC-ND 3.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
