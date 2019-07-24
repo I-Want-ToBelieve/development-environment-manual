@@ -36,7 +36,7 @@
     ```powershell
     scoop install sudo # 提权脚本
     sudo scoop install 7zip --global# 解压缩
-    scoop install aria2 # 多线程下载
+    scoop install aria2 # 多连接下载
     ```
 
 ## 配置 git
