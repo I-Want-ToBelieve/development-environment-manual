@@ -87,7 +87,7 @@
 14. **[在以管理员权限运行的 CMD 终端中, 执行以下命令, 创建符号链接(Symbolic link), 以正确引导源码映射(source Map):](https://github.com/rust-lang/rls/issues/472)**
 
     ```cmd
-    mklink /d c:\rustc\a53f9df32fbb0b5f4382caaad8f1a46f36ea887c\src c:\Scoop\persist\rustup\.rustup\toolchains\nightly-x86_64-pc-windows-gnu\lib\rustlib\src\rust\src     -->
+    mklink /d c:\rustc\a53f9df32fbb0b5f4382caaad8f1a46f36ea887c\src c:\Scoop\persist\rustup\.rustup\toolchains\nightly-x86_64-pc-windows-gnu\lib\rustlib\src\rust\src
     ```
 
 ## 安装 C/C++ 编译器: mingw-w64
