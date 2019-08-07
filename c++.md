@@ -26,6 +26,15 @@
     ```
 2. 执行 `gcc -v`, 以验证安装.
 
+## 安装包管理工具: [conan](https://docs.conan.io/en/latest/getting_started.html), 以及编译构建工具: [cmake](https://cmake.org/cmake-tutorial/)
+
+1. 执行以下命令, 以下载安装 conan:
+
+    ```powershell
+    sudo scoop install conan make cmake -g
+    ```
+2. 执行 `conan -v; make -v; cmake --version`, 以验证安装.
+
 ## 安装编辑器: [vscode(visual studio code)](https://github.com/microsoft/vscode)
 
 1. 在 powershell 终端窗口中执行以下命令,以下载安装 vscode 便携版.
@@ -88,6 +97,8 @@
 - [适用于 VS Code 的中文（简体）语言包](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)
 - [Settings Sync, 同步你的 vscode 扩展与设置](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 - [C/C++, 必装](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+- [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
+- [CMake Tools](https://marketplace.visualstudio.com/items?itemName=vector-of-bool.cmake-tools)
 - [Project Manager, 项目管理, 功能有点多自己看介绍吧](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 
 你可以在这里搜索你需要的扩展: [Visual Studio系列产品的扩展](https://marketplace.visualstudio.com/VSCode)
@@ -151,7 +162,8 @@
             {
                 "name": "Win32",
                 "includePath": [
-                    "${workspaceFolder}/**"
+                    "${workspaceFolder}/**",
+                    "${env.USERPROFILE}/.conan/data/**"
                 ],
                 "defines": [
                     "_DEBUG",

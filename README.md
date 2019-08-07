@@ -8,12 +8,12 @@
 
 ## 目录
 
-- [c++](c%2B%2B.md)
-- [c](c.md)
+- [c/c++](c%2B%2B.md)
 - [golang](golang.md)
 - [java](java.md)
 - [javascript](javascript.md)
 - [python](python.md)
+- [rust](rust.md)
 
 ## 安装 windows 包管理工具: [scoop](https://github.com/lukesampson/scoop)
 
@@ -35,7 +35,7 @@
 
     ```powershell
     scoop install sudo # 提权脚本
-    sudo scoop install 7zip --global# 解压缩
+    sudo scoop install 7zip touch --global# 解压缩
     scoop install aria2 # 多连接下载
     ```
 
