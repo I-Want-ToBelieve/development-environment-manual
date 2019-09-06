@@ -150,7 +150,8 @@
 6. 复制 `console.log('Hello World!')` 到 `index.js` 文件中, 然后按快捷键 `Ctrl + S` 保存文件
 7. 鼠标选中集成终端, 键入 `node index.js` 回车以执行 `index.js` 脚本文件.
 8. 你应该看到 `Hello World!` 在终端窗口中被打印出.
-9. 在 vscode 中 调试 node.js 请看这篇文档: https://code.visualstudio.com/docs/nodejs/nodejs-debugging
+9. 在 vscode 中 调试 node.js 请参考这篇文章: https://zhuanlan.zhihu.com/p/43016278
+   以及 vscode 官方文档: https://code.visualstudio.com/docs/nodejs/nodejs-debugging
 
 ## 在线编辑器: [CodePen](https://codepen.io/)
 

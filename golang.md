@@ -64,6 +64,16 @@
     go version
     ```
 
+4. 执行以下命令, 以使用管理员权限启动 powershell
+
+    ```powershell
+    sudo powershell
+    ```
+5. 执行以下命令, 以添加指定 go 模块安装路径的环境变量
+    ```powershell
+    $env:GO111MODULE='auto'
+    [Environment]::SetEnvironmentVariable('GO111MODULE', $env:GO111MODULE, 'Machine')
+    ```
 ## 安装编辑器
 
 Goland 与 vscode 二选一
@@ -212,3 +222,5 @@ Goland 与 vscode 二选一
     ```
 8. 选中 `index.go` 文件, 然后按快捷键 `F5` 进入调试模式.
 10. 此时你应该看到 `hello go!` 在终端窗口中被打印出.
+
+**go 模块使用请参考: https://blog.golang.org/using-go-modules**
