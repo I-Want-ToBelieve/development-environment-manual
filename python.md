@@ -127,7 +127,7 @@ vscode 是一款微软创建的基于 Electron 架构的开源应用, 拥有繁�
     "terminal.external.windowsExec": "C:\\Scoop\\apps\\git\\current\\bin\\bash.exe", // 请确保路径为你自己的 git 安装路径
     "terminal.integrated.cursorStyle": "underline", // 终端光标样式
     "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.fontFamily": "Fira Code", // 终端字体
+    "terminal.integrated.fontFamily": "等距更纱黑体 SC Medium", // 终端字体
     "terminal.integrated.fontSize": 18, // 字体大小
     "workbench.colorCustomizations": { // 你可以自己修改终端主题颜色
         // panda theme
@@ -149,6 +149,7 @@ vscode 是一款微软创建的基于 Electron 架构的开源应用, 拥有繁�
         "terminal.ansiBrightWhite": "#e6e6e6",
         "terminal.ansiWhite": "#ffffff"
     },
+    "editor.fontFamily": "'Fira Code', '等距更纱黑体 SC Medium' ,'Source Code Pro', 'Noto Sans CJK SC', 'monospace'",
 ```
 5. 按快捷键 `Ctrl + Shift + P` 打开命令面板, 在顶部弹出的命令面板中键入 `Terminal: Create New Integrated Terminal` 回车执行以打开集成终端.
 6. 现在你应该看到底部的终端面板弹出.
