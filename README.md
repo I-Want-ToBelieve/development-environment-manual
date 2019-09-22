@@ -103,7 +103,7 @@
 
 你可以在这里自行搜索 [Tampermonkey 脚本](https://greasyfork.org/zh-CN)
 
-## 编程字体推荐
+## 编程以及终端字体推荐
 
 你可以在这里[在线查看字体效果](https://app.programmingfonts.org/)
 你可以在这里[查看是否可以通过 scoop 下载你喜欢的字体](https://github.com/matthewjberger/scoop-nerd-fonts/tree/master/bucket)
@@ -112,24 +112,13 @@
 
     ```powershell
     scoop bucket add nerd-fonts
-    ```
-
-2. 这里我推荐下载 FiraCode 字体, 你也可以选择你喜欢的字体:
-
-    ```powershell
-    sudo scoop install FiraCode-NF
-    ```
-
-## 终端字体推荐
-
-1. 添加字体的 bucket:
-
-    ```powershell
     scoop bucket add scoop-fonts http://github.com/FloatingShuYin/scoop-fonts.git
     ```
 
-2. 终端字体我推荐使用字体 [更纱黑体](https://github.com/be5invis/Sarasa-Gothic) (对中文与 powerline 的支持都很好)
+2. 这里我推荐下载 FiraCode 和 [更纱黑体](https://github.com/be5invis/Sarasa-Gothic) (对中文与 powerline 的支持都很好) 字体, 你也可以选择你喜欢的字体:
+
     ```powershell
+    sudo scoop install FiraCode-NF
     sudo scoop install sarasa-gothic
     ```
 
