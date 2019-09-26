@@ -37,6 +37,19 @@
 
     则表示安装成功.如有问题请提一个 issues.
 
+## 安装 npm registry 镜像源管理工具 [nrm(NPM registry manager)](https://github.com/Pana/nrm)
+
+1. 执行以下命令, 以将 nrm 安装到 npm 全局目录:
+    ```powershell
+    npm install -g nrm
+    ```
+
+2. 执行以下命令, 以验证安装:
+
+    ```powershell
+    nrm ls
+    ```
+
 ## 安装编辑器: [vscode(visual studio code)](https://github.com/microsoft/vscode)
 
 1. 在 powershell 终端窗口中执行以下命令,以下载安装 vscode 便携版.
