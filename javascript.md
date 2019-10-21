@@ -50,6 +50,13 @@
     nrm ls
     ```
 
+## 安装 node-gyp 依赖的编译环境
+
+1. 执行以下命令, 以安装执行 windows-build-tools:
+    ```powershell
+    sudo npm install --global windows-build-tools
+    ```
+
 ## 安装编辑器: [vscode(visual studio code)](https://github.com/microsoft/vscode)
 
 1. 在 powershell 终端窗口中执行以下命令,以下载安装 vscode 便携版.
