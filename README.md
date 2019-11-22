@@ -47,7 +47,7 @@
 
     ```sudo scoop install git openssh -g```
 
-2. 成功安装后, 在 powershell 终端窗口中执行以下命令, 以配置 git:
+2. 成功安装后, 关闭当前终端窗口, 再次按快捷键 `Win + X + A` 打开一个新的 powershell 终端窗口, 执行以下命令,, 以配置 git:
 
     ```powershell
     git config --global user.email example@gmail.com # 请将 example@gmail.com 替换为你注册 git 时使用的邮箱
