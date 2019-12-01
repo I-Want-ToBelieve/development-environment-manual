@@ -86,7 +86,7 @@
 1. 在 powershell 终端窗口中执行以下命令, 以安装 chrome 浏览器
     ```
     scoop bucket add extras
-    scoop install chrome
+    scoop install googlechrome
     ```
 ### chrome 扩展推荐
 
