@@ -9,17 +9,17 @@
     scoop bucket add java
     ```
 
-2. 执行以下命令, 以下载安装 JDK
+2. 执行以下命令, 以下载安装 open JDK 1.8
 
     ```powershell
-    sudo scoop install oraclejdk -g
+    sudo scoop install ojdkbuild8 -g
     ```
 3. 安装完成后, 按快捷键 `Win + X + U + I` 注销登录并重新登录
 
 4. 然后按快捷键 `Win + X + I` 打开 powershell 终端窗口执行以下命令,
     如果输出了 Java 的版本号, 就说明配置好了 Java 的开发环境:
     ```powershell
-    java --version
+    java -version
     ```
 ## 安装 maven
 
