@@ -118,10 +118,10 @@
     scoop bucket add scoop-fonts http://github.com/FloatingShuYin/scoop-fonts.git
     ```
 
-2. 这里我推荐下载 FiraCode 和 [更纱黑体](https://github.com/be5invis/Sarasa-Gothic) (对中文与 powerline 的支持都很好) 字体, 你也可以选择你喜欢的字体:
+2. 这里我推荐下载 [FiraCode](https://github.com/tonsky/FiraCode) 和 [更纱黑体](https://github.com/be5invis/Sarasa-Gothic) (对中文与 powerline 的支持都很好) 字体, 你也可以选择你喜欢的字体:
 
     ```powershell
-    sudo scoop install FiraCode-NF
+    scoop home FiraCode
     sudo scoop install sarasa-gothic
     ```
 

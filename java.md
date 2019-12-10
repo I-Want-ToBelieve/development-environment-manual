@@ -71,30 +71,33 @@ eclipse 与 vscode 二选一
     "terminal.external.windowsExec": "C:\\Scoop\\apps\\git\\current\\bin\\bash.exe", // 请确保路径为你自己的 git 安装路径
     "terminal.integrated.cursorStyle": "underline", // 终端光标样式
     "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.fontFamily": "'FuraCode Nerd Font Mono', 'Sarasa Mono T CL', 'Cascadia Code', 'Hack'", // 终端字体
+    "terminal.integrated.fontFamily": "'Fira Code', 'Sarasa Mono T CL', 'Cascadia Code', 'Hack'", // 终端字体
     "terminal.integrated.fontSize": 18, // 字体大小
     "workbench.colorCustomizations": { // 你可以自己修改终端主题颜色
-        // panda theme
-        "terminal.foreground": "#fffefe",
-        "terminal.ansiBrightBlack": "#292a2b",
-        "terminal.ansiBlack": "#676b79",
-        "terminal.ansiBrightRed": "#ff75b5",
-        "terminal.ansiRed": "#ff2c6d",
-        "terminal.ansiBrightGreen": "#19f9d8",
-        "terminal.ansiGreen": "#ff75b5",
-        "terminal.ansiBrightYellow": "#ffcc95",
-        "terminal.ansiYellow": "#ffb86c",
-        "terminal.ansiBrightBlue": "#6fc1ff",
-        "terminal.ansiBlue": "#45a9f9",
+         // tomorrow light theme
+        "terminal.foreground": "#4d4d4c",
+         // "terminal.background": "#ffffff",
+        "terminal.ansiBrightBlack": "#000000",
+        "terminal.ansiBlack": "#000000",
+        "terminal.ansiBrightRed": "#c82829",
+        "terminal.ansiRed": "#c82829",
+        "terminal.ansiBrightGreen": "#718c00",
+        "terminal.ansiGreen": "#718c00",
+        "terminal.ansiBrightPurple": "#8959a8",
+        "terminal.ansiPurple": "#8959a8",
+        "terminal.ansiBrightYellow": "#eab700",
+        "terminal.ansiYellow": "#eab700",
+        "terminal.ansiBrightBlue": "#4271ae",
+        "terminal.ansiBlue": "#4271ae",
         "terminal.ansiBrightMagenta": "#b084eb",
         "terminal.ansiMagenta": "#72519c",
-        "terminal.ansiBrightCyan": "#000000",
-        "terminal.ansiCyan": "#6fc1ff",
-        "terminal.ansiBrightWhite": "#e6e6e6",
+        "terminal.ansiBrightCyan": "#3e999f",
+        "terminal.ansiCyan": "#3e999f",
+        "terminal.ansiBrightWhite": "#4EC5F1",
         "terminal.ansiWhite": "#ffffff"
     },
-       // 英文会使用 FuraCode Mono 中文会使用 Sarasa Mono T CL
-    "editor.fontFamily": "'FuraCode Nerd Font Mono', 'Sarasa Mono T CL', 'Cascadia Code', 'Hack'",
+       // 英文会使用 Fira Code 中文会使用 Sarasa Mono T CL
+    "editor.fontFamily": "'Fira Code', 'Sarasa Mono T CL', 'Cascadia Code', 'Hack'",
 ```
 5. 按快捷键 `Ctrl + Shift + P` 打开命令面板, 在顶部弹出的命令面板中键入 `Terminal: Create New Integrated Terminal` 回车执行以打开集成终端.
 6. 现在你应该看到底部的终端面板弹出.
