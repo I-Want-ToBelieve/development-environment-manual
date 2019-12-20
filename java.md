@@ -9,7 +9,7 @@
     scoop bucket add java
     ```
 
-2. 执行以下命令, 以下载安装 open JDK 1.8
+2. 执行以下命令, 以下载安装 oraclejdk
 
     ```powershell
     sudo scoop install oraclejdk -g
