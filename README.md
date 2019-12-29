@@ -28,7 +28,7 @@
     $env:SCOOP_GLOBAL='C:\Scoop' # 全局安装目录, 你可以自行修改为合适的路径.
     [Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
 
-    iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+    iwr -useb get.scoop.sh | iex
     ```
 
 4. scoop下载安装完成后, 请在 powershell 终端窗口执行以下命令, 以下载基础的软件包:
