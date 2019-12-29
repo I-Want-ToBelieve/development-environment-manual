@@ -11,13 +11,13 @@
 2. 执行以下命令, 以下载 node 最新长期支持版本 12.13.1.
 
     ```powershell
-    nvm install 12.13.1
+    nvm install 12.14.0
     ```
     如果下载卡住了, 请选中终端窗口敲击回车多次...
-3. 下载完成后, 执行一下命令, 以使用 12.13.1 版本的 node.
+3. 下载完成后, 执行一下命令, 以使用 12.14.0 版本的 node.
 
     ```powershell
-    sudo nvm use 12.13.1
+    sudo nvm use 12.14.0
     ```
     期间会弹出一次 UAC 获取权限的窗口, 请点击`是`给予管理员权限.
 
@@ -27,15 +27,6 @@
     node -v
     npm -v
     ```
-
-    如果打印出:
-
-    ```
-    v12.13.1
-    6.12.1
-    ```
-
-    则表示安装成功.如有问题请提一个 issues.
 
 ## 安装 npm registry 镜像源管理工具 [nrm(NPM registry manager)](https://github.com/Pana/nrm)
 
@@ -52,7 +43,13 @@
 
 ## 安装 node-gyp 依赖的编译环境
 
-1. 执行以下命令, 以安装执行 windows-build-tools:
+1. 执行以下命令，以下载安装 jdk
+    ```powershell
+    scoop bucket add java
+    sudo scoop install oraclejdk -g
+    ```
+
+2. 执行以下命令, 以安装执行 windows-build-tools:
     ```powershell
     sudo npm install --global windows-build-tools
     ```
