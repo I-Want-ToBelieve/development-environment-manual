@@ -87,28 +87,28 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontFamily": "'Fira Code', 'Sarasa Mono T CL', 'Cascadia Code', 'Hack'", // 终端字体
     "terminal.integrated.fontSize": 18, // 字体大小
-    "workbench.colorCustomizations": { // 你可以自己修改终端主题颜色
-        // tomorrow light theme
-        "terminal.foreground": "#4d4d4c",
-        // "terminal.background": "#ffffff",
-        "terminal.ansiBrightBlack": "#000000",
-        "terminal.ansiBlack": "#000000",
-        "terminal.ansiBrightRed": "#c82829",
-        "terminal.ansiRed": "#c82829",
-        "terminal.ansiBrightGreen": "#718c00",
-        "terminal.ansiGreen": "#718c00",
-        "terminal.ansiBrightPurple": "#8959a8",
-        "terminal.ansiPurple": "#8959a8",
-        "terminal.ansiBrightYellow": "#eab700",
-        "terminal.ansiYellow": "#eab700",
-        "terminal.ansiBrightBlue": "#4271ae",
-        "terminal.ansiBlue": "#4271ae",
-        "terminal.ansiBrightMagenta": "#b084eb",
-        "terminal.ansiMagenta": "#72519c",
-        "terminal.ansiBrightCyan": "#3e999f",
-        "terminal.ansiCyan": "#3e999f",
-        "terminal.ansiBrightWhite": "#4EC5F1",
-        "terminal.ansiWhite": "#ffffff"
+   "workbench.colorCustomizations": {
+        // 更多终端主题: https://glitchbone.github.io/vscode-base16-term/#/tomorrow-night
+        "terminal.background": "#1D1F21",
+        "terminal.foreground": "#C5C8C6",
+        "terminalCursor.background": "#C5C8C6",
+        "terminalCursor.foreground": "#C5C8C6",
+        "terminal.ansiBlack": "#1D1F21",
+        "terminal.ansiBlue": "#81A2BE",
+        "terminal.ansiBrightBlack": "#969896",
+        "terminal.ansiBrightBlue": "#81A2BE",
+        "terminal.ansiBrightCyan": "#8ABEB7",
+        "terminal.ansiBrightGreen": "#B5BD68",
+        "terminal.ansiBrightMagenta": "#B294BB",
+        "terminal.ansiBrightRed": "#CC6666",
+        "terminal.ansiBrightWhite": "#FFFFFF",
+        "terminal.ansiBrightYellow": "#F0C674",
+        "terminal.ansiCyan": "#8ABEB7",
+        "terminal.ansiGreen": "#B5BD68",
+        "terminal.ansiMagenta": "#B294BB",
+        "terminal.ansiRed": "#CC6666",
+        "terminal.ansiWhite": "#C5C8C6",
+        "terminal.ansiYellow": "#F0C674"
     },
     // 英文会使用 Fira Code 中文会使用 Sarasa Mono T CL
     "editor.fontFamily": "'Fira Code', 'Sarasa Mono T CL', 'Cascadia Code', 'Hack'",
@@ -138,30 +138,6 @@
 
 你可以在这里搜索你需要的扩展: [Visual Studio系列产品的扩展](https://marketplace.visualstudio.com/VSCode)
 
-### 主题
-
-我推荐几个很多人在用的主题...
-
-- [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
-
-    ![Atom One Dark Theme](https://raw.githubusercontent.com/akamud/vscode-theme-onedark/master/screenshots/preview.png)
-
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-
-    ![Material Icon Theme](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/fileIcons.png)
-
-- [Horizon Theme](https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode)
-
-    ![Material Icon Theme](https://raw.githubusercontent.com/jolaleye/horizon-theme-vscode/master/preview.png)
-
-- [Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)
-
-    ![Noctis Lux](https://github.com/liviuschera/noctis/raw/master/images/noctisLux.png)
-
-用着这么养眼的主题,写代码简直就是一种享受...
-
-想自己找找主题? [主题](https://marketplace.visualstudio.com/search?term=theme&target=VSCode&category=All%20categories&sortBy=Relevance)
-
 ### Hello World
 
 1. 按快捷键 `Ctrl + Shift + P` 打开命令面板, 在顶部弹出的命令面板中键入 `Terminal: Create New Integrated Terminal` 回车执行以打开集成终端.
@@ -180,3 +156,18 @@
 你可以使用在线编辑器: [CodePen](https://codepen.io/pen/) 来快速练习 HTML + CSS + JS:
 
 这是一个使用例子: https://codepen.io/FloatingShuYin/pen/jjzBXb
+
+
+### vscode 编辑器主题
+
+推荐主题：
+
+[tomorrow-and-tomorrow-night-operator-mono-theme](https://marketplace.visualstudio.com/items?itemName=chiragpat.tomorrow-and-tomorrow-night-operator-mono-theme)
+![Tomorrow](https://raw.githubusercontent.com/chiragpat/tomorrow-and-tomorrow-night-operator-mono-theme/master/images/Tomorrow-preview.png)
+![Tomorrow Night](https://raw.githubusercontent.com/chiragpat/tomorrow-and-tomorrow-night-operator-mono-theme/master/images/Tomorrow-Night-preview.png)
+![Tomorrow Night Bright](https://raw.githubusercontent.com/chiragpat/tomorrow-and-tomorrow-night-operator-mono-theme/master/images/Tomorrow-Night-Bright-preview.png)
+![Tomorrow Night Eighties](https://raw.githubusercontent.com/chiragpat/tomorrow-and-tomorrow-night-operator-mono-theme/master/images/eighties-preview.png)
+
+用着这么养眼的主题,写代码简直就是一种享受...
+
+想自己找找主题? [主题](https://marketplace.visualstudio.com/search?term=theme&target=VSCode&category=All%20categories&sortBy=Relevance)
